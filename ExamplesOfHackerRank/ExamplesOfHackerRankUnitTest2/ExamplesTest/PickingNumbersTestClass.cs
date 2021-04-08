@@ -16,7 +16,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
 
             var picknumbers = new PickingNumbers();
 
-           int result = picknumbers.pickingNumbers(a);
+           int result = picknumbers.FindMaxSubArray(a);
 
             Assert.AreEqual(expect, result);
 
@@ -30,7 +30,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
 
             var picknumbers = new PickingNumbers();
 
-            int result = picknumbers.pickingNumbers(a);
+            int result = picknumbers.FindMaxSubArray(a);
 
             Assert.AreEqual(expect, result);
 
