@@ -16,11 +16,11 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             var height = new int[] { 1 ,6 , 3 ,5 , 2};
 
 
-            var result = new TheHurdleRace().FindMaxSupport(k, height);
+            var actual = new TheHurdleRace().FindMaxSupport(k, height);
 
-            var expect = 2;
+            var expected = 2;
 
-            Assert.AreEqual(expect, result);
+            Assert.AreEqual(expected, actual);
 
         }
 
@@ -32,11 +32,11 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             var height = new int[] { 2 , 5, 4, 5, 2};
 
 
-            var result = new TheHurdleRace().FindMaxSupport(k, height);
+            var actual = new TheHurdleRace().FindMaxSupport(k, height);
 
-            var expect = 0;
+            var expected = 0;
 
-            Assert.AreEqual(expect, result);
+            Assert.AreEqual(expected, actual);
 
         }
     }
