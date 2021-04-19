@@ -19,8 +19,6 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             int[] expected = { 2, 3, 1 };
 
             CollectionAssert.AreEqual(expected, actual);
-
-
         }
 
     }
