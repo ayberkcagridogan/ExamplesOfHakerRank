@@ -7,7 +7,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
     [TestClass]
     public class NoteTestClass
     {
-        [TestMethod]
+   
         public void NoteTest_Case1()
         {
             // Test tree:
@@ -69,7 +69,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             Assert.IsNull(n);
         }
 
-        [TestMethod]
+
         public void NoteTest_Case2()
         {
             // Test tree:

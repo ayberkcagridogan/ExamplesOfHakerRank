@@ -7,7 +7,7 @@ namespace System
         public static int IndexOf<T>(this IEnumerable<T> source, T value)
         {
             int index = 0;
-            var comparer = EqualityComparer<T>.Default; 
+            var comparer = EqualityComparer<T>.Default;
             foreach (T item in source)
             {
                 if (comparer.Equals(item, value)) return index;
