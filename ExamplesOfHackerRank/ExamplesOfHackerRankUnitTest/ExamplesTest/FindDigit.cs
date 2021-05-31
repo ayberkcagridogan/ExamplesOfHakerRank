@@ -7,14 +7,14 @@ using System.Text;
 namespace ExamplesOfHackerRankUnitTest.ExamplesTest
 {
     [TestClass]
-    public class FindDigitTestClass
+    public class FindDigit
     {
         [TestMethod]
         public void FindDigitTest_Case1() {
 
             int n = 124;
 
-            var actual = new FindDigit().FindDigits(n);
+            var actual = new ExamplesOfHackerRank.Examples.FindDigit().FindDigits(n);
 
             var expected = 3;
 
@@ -28,7 +28,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
 
             int n = 12;
 
-            var actual = new FindDigit().FindDigits(n);
+            var actual = new ExamplesOfHackerRank.Examples.FindDigit().FindDigits(n);
 
             var expected = 2;
 
@@ -42,7 +42,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
 
             int n = 1012;
 
-            var actual = new FindDigit().FindDigits(n);
+            var actual = new ExamplesOfHackerRank.Examples.FindDigit().FindDigits(n);
 
             var expected = 3;
 

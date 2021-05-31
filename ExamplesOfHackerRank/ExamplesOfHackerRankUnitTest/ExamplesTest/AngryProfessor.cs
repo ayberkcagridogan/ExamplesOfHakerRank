@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ExamplesOfHackerRankUnitTest.ExamplesTest
 {
     [TestClass]
-    public class AngryProfessorTestClass
+    public class AngryProfessor
     {
         [TestMethod]
         public void AngryProfessorTest_Case1()
@@ -13,7 +13,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             int minParticipantStudent = 3;
             int[] studentsArrivalTime = {-1, -3 , 4, 2};
 
-            var actual = new AngryProfessor().IsClassCancel(minParticipantStudent, studentsArrivalTime);
+            var actual = new ExamplesOfHackerRank.Examples.AngryProfessor().IsClassCancel(minParticipantStudent, studentsArrivalTime);
 
             var expected = "YES";
 
@@ -26,7 +26,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             int minParticipantStudent = 2;
             int[] studentsArrivalTime = { 0, - 1, 2 ,1 };
 
-            var actual = new AngryProfessor().IsClassCancel(minParticipantStudent, studentsArrivalTime);
+            var actual = new ExamplesOfHackerRank.Examples.AngryProfessor().IsClassCancel(minParticipantStudent, studentsArrivalTime);
 
             var expected = "NO";
 

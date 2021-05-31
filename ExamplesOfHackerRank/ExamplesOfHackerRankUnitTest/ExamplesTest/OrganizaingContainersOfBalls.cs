@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ExamplesOfHackerRankUnitTest.ExamplesTest
 {
     [TestClass]
-    public class OrganizaingContainersOfBallsTestClass
+    public class OrganizaingContainersOfBalls
     {
         [TestMethod]
         public void OrganizaingContainersOfBallsTest_Case1()

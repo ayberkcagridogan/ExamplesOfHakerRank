@@ -7,7 +7,7 @@ using System.Text;
 namespace ExamplesOfHackerRankUnitTest.ExamplesTest
 {
     [TestClass]
-    public class SherlockAndSquaresTestClass
+    public class SherlockAndSquares
     {
         [TestMethod]
         public void SherlockAndSquaresTest_Case1() {
@@ -15,7 +15,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             int a = 3;
             int b = 9;
 
-            var actual = new SherlockAndSquares().CountSquares(a, b);
+            var actual = new ExamplesOfHackerRank.Examples.SherlockAndSquares().CountSquares(a, b);
 
             var expected = 2;
 

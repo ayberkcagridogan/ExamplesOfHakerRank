@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ExamplesOfHackerRankUnitTest.ExamplesTest
 {
     [TestClass]
-    public class QueensAttackIITestClass
+    public class QueensAttackII
     {
         [TestMethod]
         public void QueensAttackIITest_Case1()
@@ -17,7 +17,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             int[][] obstacles = null;
 
 
-            var actual = new QueensAttackII().FindQueenAttackCount(n, obstacleCount, rowQueen, columnQueen, obstacles);
+            var actual = new ExamplesOfHackerRank.Examples.QueensAttackII().FindQueenAttackCount(n, obstacleCount, rowQueen, columnQueen, obstacles);
 
             var expected = 9;
 
@@ -39,7 +39,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             };
 
 
-            var actual = new QueensAttackII().FindQueenAttackCount(n, obstacleCount, rowQueen, columnQueen, obstacles);
+            var actual = new ExamplesOfHackerRank.Examples.QueensAttackII().FindQueenAttackCount(n, obstacleCount, rowQueen, columnQueen, obstacles);
 
             var expected = 10;
 
@@ -56,7 +56,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             int[][] obstacles = null;
 
 
-            var actual = new QueensAttackII().FindQueenAttackCount(n, obstacleCount, rowQueen, columnQueen, obstacles);
+            var actual = new ExamplesOfHackerRank.Examples.QueensAttackII().FindQueenAttackCount(n, obstacleCount, rowQueen, columnQueen, obstacles);
 
             var expected = 0;
 
@@ -73,7 +73,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             int[][] obstacles = null;
 
 
-            var actual = new QueensAttackII().FindQueenAttackCount(n, obstacleCount, rowQueen, columnQueen, obstacles);
+            var actual = new ExamplesOfHackerRank.Examples.QueensAttackII().FindQueenAttackCount(n, obstacleCount, rowQueen, columnQueen, obstacles);
 
             var expected = 308369;
 
@@ -192,7 +192,7 @@ new int [] {43, 41}
             };
 
 
-            var actual = new QueensAttackII().FindQueenAttackCount(n, obstacleCount, rowQueen, columnQueen, obstacles);
+            var actual = new ExamplesOfHackerRank.Examples.QueensAttackII().FindQueenAttackCount(n, obstacleCount, rowQueen, columnQueen, obstacles);
 
             var expected = 40;
 

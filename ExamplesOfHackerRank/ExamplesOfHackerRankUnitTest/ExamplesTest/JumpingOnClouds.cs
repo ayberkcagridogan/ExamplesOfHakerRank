@@ -7,7 +7,7 @@ using System.Text;
 namespace ExamplesOfHackerRankUnitTest.ExamplesTest
 {
     [TestClass]
-    public class JumpingOnCloudsTestClass
+    public class JumpingOnClouds
     {
         [TestMethod]
         public void JumpingOnCloudsTest_Case1()
@@ -15,7 +15,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             int[] p = { 0, 0, 1, 0, 0, 1, 1, 0 };
             int k = 2;
 
-            var actual = new JumpingOnClouds().CalculateEnergy(p, k);
+            var actual = new ExamplesOfHackerRank.Examples.JumpingOnClouds().CalculateEnergy(p, k);
 
             var expected = 92;
 
@@ -28,7 +28,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             int[] p = { 1 ,1 ,1 ,0 ,1 ,1 ,0 ,0 ,0 ,0 };
             int k = 3;
 
-            var actual = new JumpingOnClouds().CalculateEnergy(p, k);
+            var actual = new ExamplesOfHackerRank.Examples.JumpingOnClouds().CalculateEnergy(p, k);
 
             var expected = 80;
 

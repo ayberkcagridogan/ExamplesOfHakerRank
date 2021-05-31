@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ExamplesOfHackerRankUnitTest.ExamplesTest
 {
     [TestClass]
-    public class CircularArrayRotationTestClass
+    public class CircularArrayRotation
     {
         [TestMethod]
         public void CircularArrayRotationTest_Case1()
@@ -14,7 +14,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             int rotationCount = 2;
             int[] queries = { 0, 1, 2 };
 
-            var actual = new CircularArrayRotation().GetRotationArray(array, rotationCount, queries);
+            var actual = new ExamplesOfHackerRank.Examples.CircularArrayRotation().GetRotationArray(array, rotationCount, queries);
 
             int[] expected = { 2, 3, 1 };
 

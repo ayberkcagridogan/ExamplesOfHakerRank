@@ -7,7 +7,7 @@ using System.Text;
 namespace ExamplesOfHackerRankUnitTest.ExamplesTest
 {
     [TestClass]
-    public class RepeatedStringTestClass{
+    public class RepeatedString{
 
         [TestMethod]
         public void RepeatedStringTest_Case1(){
@@ -15,7 +15,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             string s = "aba";
             long n = 10;
 
-            var actual = new RepeatedString().CountRepeatedString(s, n);
+            var actual = new ExamplesOfHackerRank.Examples.RepeatedString().CountRepeatedString(s, n);
 
             var expected = 7;
 

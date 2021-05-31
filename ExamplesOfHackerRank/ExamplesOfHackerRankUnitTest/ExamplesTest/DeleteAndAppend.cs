@@ -7,7 +7,7 @@ using System.Text;
 namespace ExamplesOfHackerRankUnitTest.ExamplesTest
 {
     [TestClass]
-    public class DeleteAndAppendTestClass
+    public class DeleteAndAppend
     {
         [TestMethod]
         public void DeleteAndAppendTest_Case1(){
@@ -16,7 +16,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             string createdWord = "hackerrank";
             int k = 9;
 
-            var actual = new DeleteAndAppend().IsItPossible(mainWord, createdWord, k);
+            var actual = new ExamplesOfHackerRank.Examples.DeleteAndAppend().IsItPossible(mainWord, createdWord, k);
 
             var expected = "Yes";
 
@@ -31,7 +31,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             string createdWord = "aba";
             int k = 7;
 
-            var actual = new DeleteAndAppend().IsItPossible(mainWord, createdWord, k);
+            var actual = new ExamplesOfHackerRank.Examples.DeleteAndAppend().IsItPossible(mainWord, createdWord, k);
 
             var expected = "Yes";
 
@@ -46,7 +46,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             string createdWord = "ash";
             int k = 2;
 
-            var actual = new DeleteAndAppend().IsItPossible(mainWord, createdWord, k);
+            var actual = new ExamplesOfHackerRank.Examples.DeleteAndAppend().IsItPossible(mainWord, createdWord, k);
 
             var expected = "No";
 
@@ -61,7 +61,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             string createdWord = "vgftrheydkoslwezxcvdsqjkfhrydjwvogfheksockelsnbkeq";
             int k = 2;
 
-            var actual = new DeleteAndAppend().IsItPossible(mainWord, createdWord, k);
+            var actual = new ExamplesOfHackerRank.Examples.DeleteAndAppend().IsItPossible(mainWord, createdWord, k);
 
             var expected = "No";
 
@@ -76,7 +76,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             string createdWord = "abcdert";
             int k = 10;
 
-            var actual = new DeleteAndAppend().IsItPossible(mainWord, createdWord, k);
+            var actual = new ExamplesOfHackerRank.Examples.DeleteAndAppend().IsItPossible(mainWord, createdWord, k);
 
             var expected = "No";
 
@@ -91,7 +91,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             string createdWord = "zzzzzzz";
             int k = 4;
 
-            var actual = new DeleteAndAppend().IsItPossible(mainWord, createdWord, k);
+            var actual = new ExamplesOfHackerRank.Examples.DeleteAndAppend().IsItPossible(mainWord, createdWord, k);
 
             var expected = "Yes";
 

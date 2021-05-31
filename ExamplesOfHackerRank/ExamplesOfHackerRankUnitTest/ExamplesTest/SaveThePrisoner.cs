@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ExamplesOfHackerRankUnitTest.ExamplesTest
 {
     [TestClass]
-    public class SaveThePrisonerTestClass
+    public class SaveThePrisoner
     {
         [TestMethod]
         public void SaveThePrisonerTest_Case1()
@@ -14,7 +14,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             int pieceOfCandy = 19;
             int start = 2;
 
-            var actual = new SaveThePrisoner().GetPersonToBeWarned(prisoners, pieceOfCandy, start);
+            var actual = new ExamplesOfHackerRank.Examples.SaveThePrisoner().GetPersonToBeWarned(prisoners, pieceOfCandy, start);
 
             var expected = 6;
 
@@ -28,7 +28,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             int pieceOfCandy = 2;
             int start = 1;
 
-            var actual = new SaveThePrisoner().GetPersonToBeWarned(prisoners, pieceOfCandy, start);
+            var actual = new ExamplesOfHackerRank.Examples.SaveThePrisoner().GetPersonToBeWarned(prisoners, pieceOfCandy, start);
 
             var expected = 2;
 
