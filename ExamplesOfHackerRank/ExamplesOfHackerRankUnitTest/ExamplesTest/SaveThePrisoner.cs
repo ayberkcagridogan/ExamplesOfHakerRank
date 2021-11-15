@@ -21,6 +21,11 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             Assert.AreEqual(expected, actual);
         }
 
+        internal object GetPersonToBeWarned(int prisoners, int pieceOfCandy, int start)
+        {
+            throw new NotImplementedException();
+        }
+
         [TestMethod]
         public void SaveThePrisonerTest_Case2()
         {
