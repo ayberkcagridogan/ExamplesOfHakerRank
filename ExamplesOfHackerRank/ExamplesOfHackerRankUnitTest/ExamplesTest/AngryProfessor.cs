@@ -39,7 +39,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             int minParticipantStudent = 2;
             int[] studentsArrivalTime = { 0, - 1, 2 ,1 };
 
-            var actual = new AngryProfessor().IsClassCancel(minParticipantStudent, studentsArrivalTime);
+            var actual = new ExamplesOfHackerRank.Examples.AngryProfessor().IsClassCancel(minParticipantStudent, studentsArrivalTime);
 
             var expected = "NO";
 
