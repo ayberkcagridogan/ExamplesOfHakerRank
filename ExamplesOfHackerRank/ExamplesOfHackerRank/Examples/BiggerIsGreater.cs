@@ -1,6 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using ExamplesOfHackerRank.BusinessHelp;
+
 
 namespace ExamplesOfHackerRank.Examples
 {
@@ -21,6 +20,7 @@ namespace ExamplesOfHackerRank.Examples
                     }
                 }
             }
+            //If you want to make just swap , you can use char[] letterOfWord = word.ToCharArray()
 
             return "no answer";
 

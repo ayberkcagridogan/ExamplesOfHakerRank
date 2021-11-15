@@ -10,10 +10,10 @@ namespace ExamplesOfHackerRank.Examples
 
             List<int> result = new List<int>();
 
-            for (int i = 1; i <= p.Count(); i++)
-            {
-               result.Add(p.IndexOf(p.IndexOf(i)+ 1) + 1); 
-            }
+            //for (int i = 1; i <= p.; i++)
+            //{
+            //   result.Add(p.IndexOf(p.IndexOf(i)+ 1) + 1); 
+            //}
 
             return result;
 

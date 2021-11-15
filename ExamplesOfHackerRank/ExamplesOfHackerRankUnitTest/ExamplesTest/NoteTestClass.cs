@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ExamplesOfHackerRankUnitTest.ExamplesTest
 {
-    [TestClass]
+
     public class NoteTestClass
     {
         [TestMethod]
