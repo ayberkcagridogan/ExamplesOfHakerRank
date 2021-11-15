@@ -6,7 +6,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ExamplesOfHackerRankUnitTest.ExamplesTest
 {
     [TestClass]
-    public class NonDivisibleSubSetTestClass
+    public class NonDivisibleSubSet
     {
         [TestMethod]
         public void NonDivisibleSubsetTest_Case1()
@@ -14,7 +14,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             int divisor = 3;
             List<int> set = new List<int> { 1, 7,2,4 };
 
-            var actual = new NonDivisibleSubSet().FindMaxSubsetCount(divisor, set);
+            var actual = new ExamplesOfHackerRank.Examples.NonDivisibleSubSet().FindMaxSubsetCount(divisor, set);
 
             var expected = 3;
 
@@ -27,7 +27,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             int divisor = 7;
             List<int> set = new List<int> { 278, 576, 496, 727, 410, 124, 338, 149, 209, 702, 282, 718, 771, 575, 436 };
 
-            var actual = new NonDivisibleSubSet().FindMaxSubsetCount(divisor, set);
+            var actual = new ExamplesOfHackerRank.Examples.NonDivisibleSubSet().FindMaxSubsetCount(divisor, set);
 
             var expected = 11;
 
@@ -40,7 +40,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             int divisor = 1;
             List<int> set = new List<int> { 1 ,2, 3, 4, 5};
 
-            var actual = new NonDivisibleSubSet().FindMaxSubsetCount(divisor, set);
+            var actual = new ExamplesOfHackerRank.Examples.NonDivisibleSubSet().FindMaxSubsetCount(divisor, set);
 
             var expected = 1;
 
@@ -53,7 +53,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             int divisor = 4;
             List<int> set = new List<int> { 1, 2, 3, 4, 5 ,6 ,7 ,8 ,9 ,10};
 
-            var actual = new NonDivisibleSubSet().FindMaxSubsetCount(divisor, set);
+            var actual = new ExamplesOfHackerRank.Examples.NonDivisibleSubSet().FindMaxSubsetCount(divisor, set);
 
             var expected = 5;
 

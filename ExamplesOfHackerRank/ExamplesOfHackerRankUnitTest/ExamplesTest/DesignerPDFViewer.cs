@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ExamplesOfHackerRankUnitTest.ExamplesTest
 {
     [TestClass]
-    public class DesignerPDFViewerTestClass
+    public class DesignerPDFViewer
     {
         [TestMethod]
         public void DesignerPDFViewerTest_Case1()
@@ -13,7 +13,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             int[] heghlighted = { 1, 3, 1, 3, 1, 4, 1, 3, 2, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5 };
             string word = "abc";
 
-            var actual = new DesignerPDFViewer().FindHighlightedText(heghlighted, word);
+            var actual = new ExamplesOfHackerRank.Examples.DesignerPDFViewer().FindHighlightedText(heghlighted, word);
 
             var expected = 9;
 
@@ -26,7 +26,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             int[] heghlighted = { 1, 3, 1, 3, 1, 4, 1, 3, 2, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 7 };
             string word = "zaba";
 
-            var actual = new DesignerPDFViewer().FindHighlightedText(heghlighted, word);
+            var actual = new ExamplesOfHackerRank.Examples.DesignerPDFViewer().FindHighlightedText(heghlighted, word);
 
             var expected = 28;
 

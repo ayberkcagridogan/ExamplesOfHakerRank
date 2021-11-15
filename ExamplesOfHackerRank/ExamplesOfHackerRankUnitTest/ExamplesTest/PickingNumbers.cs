@@ -6,7 +6,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ExamplesOfHackerRankUnitTest.ExamplesTest
 {
     [TestClass]
-    public class PickingNumbersTestClass
+    public class PickingNumbers
     {
         [TestMethod]
         public void PickingNumberTest_Case1()
@@ -14,7 +14,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             var a = new List<int>() { 4,6,5,3,3,1};
  
 
-            int actula = new PickingNumbers().FindMaxSubArray(a);
+            int actula = new ExamplesOfHackerRank.Examples.PickingNumbers().FindMaxSubArray(a);
  
             int expected = 3;
 
@@ -27,7 +27,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
         {
             var a = new List<int>() { 1, 2,2,3,1,2};
 
-            int actual = new PickingNumbers().FindMaxSubArray(a);
+            int actual = new ExamplesOfHackerRank.Examples.PickingNumbers().FindMaxSubArray(a);
 
             int expected = 5;
             Assert.AreEqual(expected, actual);

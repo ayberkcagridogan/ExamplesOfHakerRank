@@ -4,10 +4,15 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ExamplesOfHackerRankUnitTest.ExamplesTest
 {
+<<<<<<< HEAD:ExamplesOfHackerRank/ExamplesOfHackerRankUnitTest/ExamplesTest/NoteTestClass.cs
 
     public class NoteTestClass
+=======
+    [TestClass]
+    public class Note
+>>>>>>> 3623f9c8e2928d5352b8b6175db82fda19eafe7c:ExamplesOfHackerRank/ExamplesOfHackerRankUnitTest/ExamplesTest/Note.cs
     {
-        [TestMethod]
+   
         public void NoteTest_Case1()
         {
             // Test tree:
@@ -69,7 +74,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             Assert.IsNull(n);
         }
 
-        [TestMethod]
+
         public void NoteTest_Case2()
         {
             // Test tree:

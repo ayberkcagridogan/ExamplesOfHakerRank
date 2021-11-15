@@ -5,14 +5,14 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ExamplesOfHackerRankUnitTest.ExamplesTest
 {
     [TestClass]
-    public class BiggerIsGreaterTestClass
+    public class BiggerIsGreater
     {
         [TestMethod]
         public void BiggerIsGreaterTest_Case1()
         {
             string word = "hefg";
 
-            var actual = new BiggerIsGreater().FindBigger(word);
+            var actual = new ExamplesOfHackerRank.Examples.BiggerIsGreater().FindBigger(word);
 
             var expected = "hegf";
 
@@ -25,7 +25,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
         {
             string word = "bb";
 
-            var actual = new BiggerIsGreater().FindBigger(word);
+            var actual = new ExamplesOfHackerRank.Examples.BiggerIsGreater().FindBigger(word);
 
             var expected = "no answer";
 
@@ -38,7 +38,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
         {
             string word = "lmno";
 
-            var actual = new BiggerIsGreater().FindBigger(word);
+            var actual = new ExamplesOfHackerRank.Examples.BiggerIsGreater().FindBigger(word);
 
             var expected = "lmon";
 
@@ -51,7 +51,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
         {
             string word = "dcba";
 
-            var actual = new BiggerIsGreater().FindBigger(word);
+            var actual = new ExamplesOfHackerRank.Examples.BiggerIsGreater().FindBigger(word);
 
             var expected = "no answer";
 
@@ -64,7 +64,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
         {
             string word = "dcbb";
 
-            var actual = new BiggerIsGreater().FindBigger(word);
+            var actual = new ExamplesOfHackerRank.Examples.BiggerIsGreater().FindBigger(word);
 
             var expected = "no answer";
 
@@ -77,7 +77,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
         {
             string word = "abdc";
 
-            var actual = new BiggerIsGreater().FindBigger(word);
+            var actual = new ExamplesOfHackerRank.Examples.BiggerIsGreater().FindBigger(word);
 
             var expected = "acbd";
 
@@ -90,7 +90,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
         {
             string word = "abcd";
 
-            var actual = new BiggerIsGreater().FindBigger(word);
+            var actual = new ExamplesOfHackerRank.Examples.BiggerIsGreater().FindBigger(word);
 
             var expected = "abdc";
 
@@ -103,7 +103,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
         {
             string word = "dkhc";
 
-            var actual = new BiggerIsGreater().FindBigger(word);
+            var actual = new ExamplesOfHackerRank.Examples.BiggerIsGreater().FindBigger(word);
 
             var expected = "hcdk";
 

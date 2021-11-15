@@ -5,14 +5,14 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ExamplesOfHackerRankUnitTest.ExamplesTest
 {
     [TestClass]
-    public class EncryptionTestClass
+    public class Encryption
     {
         [TestMethod]
         public void EncryptionTest_Case1()
         {
             string word = "have a nice day";
 
-            var actual = new Encryption().GetEncryptionWord(word);
+            var actual = new ExamplesOfHackerRank.Examples.Encryption().GetEncryptionWord(word);
 
             var expect = "hae and via ecy";
 
@@ -24,7 +24,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
         {
             string word = "chillout";
 
-            var actual = new Encryption().GetEncryptionWord(word);
+            var actual = new ExamplesOfHackerRank.Examples.Encryption().GetEncryptionWord(word);
 
             var expect = "clu hlt io";
 
@@ -37,7 +37,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
         {
             string word = "feedthedog";
 
-            var actual = new Encryption().GetEncryptionWord(word);
+            var actual = new ExamplesOfHackerRank.Examples.Encryption().GetEncryptionWord(word);
 
             var expect = "fto ehg ee dd";
 

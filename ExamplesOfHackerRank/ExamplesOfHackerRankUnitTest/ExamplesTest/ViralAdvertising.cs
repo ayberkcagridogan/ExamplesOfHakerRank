@@ -5,14 +5,14 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ExamplesOfHackerRankUnitTest.ExamplesTest
 {
     [TestClass]
-    public class ViralAdvertisingTestClass
+    public class ViralAdvertising
     {
         [TestMethod]
         public void ViralAdvertisingTest_Case1()
         {
             int day = 5;
 
-            var actual = new ViralAdvertising().GetReceiveAdvertisement(day);
+            var actual = new ExamplesOfHackerRank.Examples.ViralAdvertising().GetReceiveAdvertisement(day);
 
             var expected = 24;
 
@@ -24,7 +24,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
         {
             int day = 3;
 
-            var actual = new ViralAdvertising().GetReceiveAdvertisement(day);
+            var actual = new ExamplesOfHackerRank.Examples.ViralAdvertising().GetReceiveAdvertisement(day);
 
             var expected = 9;
 

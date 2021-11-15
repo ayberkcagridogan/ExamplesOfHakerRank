@@ -6,7 +6,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ExamplesOfHackerRankUnitTest.ExamplesTest
 {
     [TestClass]
-    public class TheHurdleRaceTestClass
+    public class TheHurdleRace
     {
         [TestMethod]
         public void PickingNumberTest_Case1()
@@ -16,7 +16,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             var height = new int[] { 1 ,6 , 3 ,5 , 2};
 
 
-            var actual = new TheHurdleRace().FindMaxSupport(k, height);
+            var actual = new ExamplesOfHackerRank.Examples.TheHurdleRace().FindMaxSupport(k, height);
 
             var expected = 2;
 
@@ -32,7 +32,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
             var height = new int[] { 2 , 5, 4, 5, 2};
 
 
-            var actual = new TheHurdleRace().FindMaxSupport(k, height);
+            var actual = new ExamplesOfHackerRank.Examples.TheHurdleRace().FindMaxSupport(k, height);
 
             var expected = 0;
 

@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <PackageReference Include="coverlet.msbuild" Version="3.1.0">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
@@ -19,6 +20,11 @@
 
   <ItemGroup>
     <Folder Include="ExamplesTest\" />
+=======
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.4" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.2.3" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.2.3" />
+>>>>>>> 3623f9c8e2928d5352b8b6175db82fda19eafe7c
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ExamplesOfHackerRank\ExamplesOfHackerRank.csproj" />

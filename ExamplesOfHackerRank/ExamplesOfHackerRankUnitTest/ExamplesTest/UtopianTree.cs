@@ -5,14 +5,14 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ExamplesOfHackerRankUnitTest.ExamplesTest
 {
     [TestClass]
-    public class UtopianTreeTestClass
+    public class UtopianTree
     {
         [TestMethod]
         public void UtopianTreeTest_Case1()
         {
             int cycle = 0;
 
-            var actual = new UtopianTree().GetTreeHeight(cycle);
+            var actual = new ExamplesOfHackerRank.Examples.UtopianTree().GetTreeHeight(cycle);
 
             var expected = 1;
 
@@ -24,7 +24,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
         {
             int cycle = 1;
 
-            var actual = new UtopianTree().GetTreeHeight(cycle);
+            var actual = new ExamplesOfHackerRank.Examples.UtopianTree().GetTreeHeight(cycle);
 
             var expected = 2;
 
@@ -37,7 +37,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
         {
             int cycle = 4;
 
-            var actual = new UtopianTree().GetTreeHeight(cycle);
+            var actual = new ExamplesOfHackerRank.Examples.UtopianTree().GetTreeHeight(cycle);
 
             var expected = 7;
 

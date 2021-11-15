@@ -5,14 +5,14 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ExamplesOfHackerRankUnitTest.ExamplesTest
 {
     [TestClass]
-    public class ExtraLongFactorialsTestClass
+    public class ExtraLongFactorials
     {
         [TestMethod]
         public void ExtraLongFactorialsTest_Case1()
         {
             int n = 3;
 
-            var actual = new ExtraLongFactorials();
+            var actual = new ExamplesOfHackerRank.Examples.ExtraLongFactorials();
 
             actual.CalculateFactorials(n);
 
@@ -27,7 +27,7 @@ namespace ExamplesOfHackerRankUnitTest.ExamplesTest
         {
             int n = 25;
 
-            var actual = new ExtraLongFactorials();
+            var actual = new ExamplesOfHackerRank.Examples.ExtraLongFactorials();
 
             actual.CalculateFactorials(n);
 
